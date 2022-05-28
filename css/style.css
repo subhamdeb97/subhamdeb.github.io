@@ -1,0 +1,50 @@
+.main-bg{
+    background: url("/image/bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.front-plate{
+    height: 80vh;
+    width: 70%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(165, 98, 241, 0.699),
+        rgba(241, 98, 193, 0.705)
+        );
+    border-radius: 1.1rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.left-col{
+    border-radius: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.233);
+}
+.avatar{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.name{
+    width:fit-content;
+    font-size: 17px;
+    text-transform:uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgba(243, 243, 243, 0.815);
+}
+
+@media only screen and (max-width:600px){
+    .front-plate{
+        height: 90vh;
+        width: 80%; 
+    }
+    .left-col{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+    .avatar{
+        width: 110px;
+    }
+}

@@ -39,7 +39,11 @@
     margin-right: 10px;
     /* border-radius: 30px; */
 }
+.fit-content{
+    padding-inline: 30px;
+    width:fit-content;
 
+}
 
 
 

@@ -23,7 +23,7 @@
 .avatar{
     width: 60%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 80%;
     margin-top: 20px;
 }
 .name{
@@ -38,10 +38,14 @@
     width: 30px;
     margin-right: 10px;
     /* border-radius: 30px; */
+    list-style: none;
 }
 .fit-content{
     padding-inline: 30px;
     width:fit-content;
+    list-style: none;
+    color: #ccc4c4cb;
+    text-decoration: none;
 }
 
 

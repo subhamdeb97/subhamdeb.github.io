@@ -3,7 +3,6 @@
     background-position: center;
     background-size: cover;
 }
-
 .front-plate{
     height: 80vh;
     width: 70%;
@@ -35,20 +34,19 @@
     color: rgba(243, 243, 243, 0.815);
 }
 .link-logo{
-    width: 30px;
-    margin-right: 10px;
+    width: 28px;
+    /* margin-right: 10px; */
     /* border-radius: 30px; */
     list-style: none;
 }
 .fit-content{
-    padding-inline: 30px;
-    width:fit-content;
-    list-style: none;
-    color: #ccc4c4cb;
+    font-size: 17px;
     text-decoration: none;
+    color: white;
 }
-
-
+.fit-content:hover{
+    color: rgba(184, 184, 184, 0.753);
+}
 
 @media only screen and (max-width:600px){
     .front-plate{
@@ -62,4 +60,13 @@
     .avatar{
         width: 110px;
     }
+    .fit-content{
+        font-size: 14px;
+    }
+    .link-logo{
+        width: 30px;
+        /* margin-right: 10px; */
+        /* border-radius: 30px; */
+    }
+    
 }

@@ -1,3 +1,6 @@
+*{
+    font-family: 'Finlandica', sans-serif;
+}
 .main-bg{
     background: url("/image/bg.jpg") no-repeat;
     background-position: center;
@@ -8,8 +11,8 @@
     width: 70%;
     background: linear-gradient(
         to right bottom,
-        rgba(165, 98, 241, 0.699),
-        rgba(241, 98, 193, 0.705)
+        rgba(63, 35, 95, 0.568),
+        rgba(104, 34, 81, 0.623)
         );
     border-radius: 1.1rem;
     padding-left: 0 !important;
@@ -17,7 +20,7 @@
 }
 .left-col{
     border-radius: 1.1rem;
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: rgba(41, 31, 31, 0.521);
 }
 .avatar{
     width: 60%;
@@ -29,9 +32,9 @@
     width:fit-content;
     font-size: 17px;
     text-transform:uppercase;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
-    color: rgba(243, 243, 243, 0.815);
+    color: rgba(255, 255, 255, 0.815);
 }
 .link-logo{
     width: 28px;
@@ -41,11 +44,75 @@
 .fit-content{
     font-size: 17px;
     text-decoration: none;
-    color: white;
+    color: rgb(189, 189, 189);
 }
 .fit-content:hover{
-    color: rgba(184, 184, 184, 0.753);
+    color: rgba(255, 255, 255, 0.753);
 }
+.head-body{
+    color: white;
+    
+}
+
+
+a, a:active, li a:visited{
+ text-decoration: none;   
+}
+
+
+
+
+/* education */
+
+.edu-bg{
+    background: url("/image/17450.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+}
+.front-edu{
+    width: 80%;
+    margin-inline: auto;
+    background: rgba(1, 3, 44, 0.836);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.front-edu2{
+    width: 80%;
+    margin-inline: auto;
+    background: rgba(1, 3, 44, 0.438);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+li{
+    display: inline;
+    padding-inline: 10px;
+    font-size: 16;
+    color: white;
+}
+li a, li a:active, li a:visited{
+    color: white;
+}
+.menu-btn{
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.course-head{
+    color: white;
+}
+.course-para{
+    color: #bebebe;
+}
+
+
 
 @media only screen and (max-width:600px){
     .front-plate{
@@ -67,5 +134,45 @@
         /* margin-right: 10px; */
         /* border-radius: 30px; */
     }
-    
+
+    /* for education screen */
+    .front-edu{
+        width: 90%;
+    }
+    .front-edu2{
+        width: 90%;
+        
+    }
+    li{
+        display: block;
+        margin-top:10px;
+    }
+}
+
+
+
+
+
+
+/* slide-menu design for mobile */
+.slide-menu{
+    position: fixed;
+    z-index: 3;
+    top: 10px;
+    right:0;
+    width:0;
+    height: 100vh;
+    background: linear-gradient(
+        to right bottom,
+        rgb(97, 28, 177),
+        rgb(165, 19, 116)
+        );
+    transition-duration: .4s;
+}
+.close-x{
+    width: fit-content;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight:900;
+    color: white;
 }

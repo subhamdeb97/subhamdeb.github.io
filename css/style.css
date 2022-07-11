@@ -38,7 +38,7 @@
 }
 .link-logo{
     width: 28px;
-    /* margin-right: 10px; */
+    margin-left: 8px;
     /* border-radius: 30px; */
     list-style: none;
 }
@@ -134,12 +134,13 @@ li a, li a:active, li a:visited{
         font-size: 14px;
     }
     .brife-details{
-        font-size: 13px;
+        font-size: 15px;
         color: white;
     }
     
     .link-logo{
         width: 30px;
+        margin-left: 8px;
         /* margin-right: 10px; */
         /* border-radius: 30px; */
     }

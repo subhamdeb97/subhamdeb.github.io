@@ -70,10 +70,12 @@ a, a:active, li a:visited{
 
 .edu-bg{
     background: url("/image/17450.jpg");
-    background-position: center;
+    background-position:center;
+    background-attachment: fixed;
     background-size: cover;
-    min-height: 100vh;
-    max-height: 100%;
+    overflow-y: scroll;
+  
+    
 }
 .front-edu{
     width: 80%;
@@ -89,7 +91,7 @@ a, a:active, li a:visited{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     height: 100vh;
-    overflow-y: scroll;
+    
 }
 ul{
     list-style: none;
